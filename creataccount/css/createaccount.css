@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Head Css*/
+/*Header Css*/
+.headContainer {
+	display: flex;
+	border-bottom: 1.5px solid black;
+}
+.headCol1 {
+	flex: 1;	
+}
+h1 {
+	padding: 1em 0em 1em 2em ;
+	font-size: 3em;
+}
+.headCol2 {
+	flex: 2;
+}
+.headCol2 nav a {
+	font-size: 150%;
+	color: black;
+	padding: 7%;
+}
+.headCol2 nav a:hover {
+	color:#709BB3;
+}
+.headCol2, nav {
+	padding: 1.5em 0em 1.5em 1em;
+}
+#active {
+	text-decoration: underline;
+	color: #709BB3;
+}
+
+/*Main CSS*/
+.mainContainer {
+	display: flex;
+}
+.mainCol1 {
+	flex: 1;
+	border: 1px solid black;
+	margin: 5% 15% 5% 15%;
+	padding: 10%;
+}
+
+input:invalid:required {
+  border: 1px dashed #FF3F42;
+}
+input:valid {
+	border: 2px solid #91CC82;
+}
+#submit {
+	border: 1px solid black;
+}

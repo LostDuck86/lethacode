@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+/*Header Css*/
+/*Header Css*/
+.headContainer {
+	display: flex;
+	border-bottom: 1.5px solid black;
+}
+.headCol1 {
+	flex: 1;	
+}
+h1 {
+	padding: 1em 0em 1em 2em ;
+	font-size: 3em;
+}
+.headCol2 {
+	flex: 2;
+}
+.headCol2 nav a {
+	font-size: 150%;
+	color: black;
+	padding: 7%;
+}
+.headCol2 nav a:hover {
+	color:#709BB3;
+}
+.headCol2, nav {
+	padding: 1.5em 0em 1.5em 1em;
+}
+
+/*Main Css*/
+
+.mainContainer {
+	display: flex;
+}
+.mainCol1 {
+	flex: 1;
+	border: 10px double black;
+	margin: 10%;
+	padding: 5em;
+	text-align: center;
+}
+h2 {
+	font-size: 2em;
+}

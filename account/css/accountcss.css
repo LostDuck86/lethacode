@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Header Css*/
+.headContainer {
+	display: flex;
+	border-bottom: 1.5px solid black;
+}
+.headCol1 {
+	flex: 1;	
+}
+h1 {
+	padding: 1em 0em 1em 2em ;
+	font-size: 3em;
+}
+.headCol2 {
+	flex: 2;
+}
+.headCol2 nav a {
+	font-size: 150%;
+	color: black;
+	padding: 7%;
+}
+.headCol2 nav a:hover {
+	color:#709BB3;
+}
+.headCol2, nav {
+	padding: 1.5em 0em 1.5em 1em;
+}
+#active {
+	text-decoration: underline;
+	color: #709BB3;
+}
+
+/*Main Css*/
+.mainContainer {
+	display: flex;
+}
+.mainCol1 {
+	flex: 1;
+}
+.mainCol2 {
+	flex: 2;
+}
+h2 {
+	padding-left: 30%;
+	padding-top: 55%;
+	font-size: 1.8em;
+}
+.mainCol2 .mainCol1 {
+	padding: 5%;
+	border-bottom: 0.5px solid grey;
+}
+.accountMenu {
+	padding-left: 40%;
+	color: black;
+	text-decoration: none;	
+	font-size: 120%;
+}
+.accountMenu:hover {
+	color:#709BB3;
+}
+#modalNo {
+	border: 2px solid #B7222C;
+	border-radius: 20%;
+	padding: 0.4em 1.4em 0.5em 1.5em;
+	background: #B7222C;
+	color: white;
+	box-shadow:  2px 2px 5px grey;
+	
+}
+#modalYes {
+	border: 2px solid #B7222C;
+	border-radius: 20%;
+	padding: 0.4em 1.4em 0.5em 1.5em;
+	color: #B7222C;
+	box-shadow:  2px 2px 5px grey;
+	
+}
+#modalYes:hover {
+	background: #B7222C;
+	color: white;
+	text-decoration: none;
+	box-shadow: none;
+}
+#modalNo:hover {
+	text-decoration: none;
+	box-shadow: none;
+}
